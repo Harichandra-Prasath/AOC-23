@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/Harichandra-Prasath/AOC-23/day2"
+	"github.com/Harichandra-Prasath/AOC-23/day3"
 )
 
 func main() {
-	res := day2.Part2()
+	res := day3.Part1()
 	fmt.Println(res)
 }
