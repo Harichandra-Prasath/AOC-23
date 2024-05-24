@@ -9,4 +9,5 @@ import (
 func main() {
 	res := day3.Part1()
 	fmt.Println(res)
+
 }
