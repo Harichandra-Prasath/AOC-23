@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	res := day1.Solve()
+	res := day1.Part2()
 	fmt.Println(res)
 }

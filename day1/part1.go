@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func Solve() int {
+func Part1() int {
 	data, err := os.ReadFile("day1/input.txt")
 	if err != nil {
 		panic(err)
@@ -25,12 +25,12 @@ func Solve() int {
 			flag = false
 			continue
 		}
-		check(b, &num, &flag, &c)
+		check1(b, &num, &flag, &c)
 	}
 	return sum
 }
 
-func check(b byte, num *string, flag *bool, c *string) {
+func check1(b byte, num *string, flag *bool, c *string) {
 
 	r := rune(b)
 	if r <= 57 && r >= 48 {
